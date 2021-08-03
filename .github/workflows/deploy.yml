@@ -39,7 +39,7 @@ jobs:
           echo "::set-output name=SRC_BRANCH::${GITHUB_HEAD_REF}"
           echo "::set-output name=NO_PUSH::--no-push"
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
+          echo "::set-output name=SRC_BRANCH::master"
         fi
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
     - name: Deploy website 
