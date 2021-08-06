@@ -6,7 +6,7 @@ description: <a href="mailto:shavin.malhotra@uwaterloo.ca">shavin.malhotra@uwate
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   address: >
     <p>E7 2444</p>
     <p>200 University Ave W</p>
